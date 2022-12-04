@@ -8,10 +8,16 @@ async function run (input, output, opts = { }) {
   expect(result.warnings()).toHaveLength(0)
 }
 
-/* Write tests here
+const result = `:root, ::before, ::after {
+    --colors-custom-property: #666
+}`
 
-it('does something', async () => {
-  await run('a{ }', 'a{ }', { })
-})
+const colors = {
+  "custom": {
+    "property": '#666'
+  }
+}
 
-*/
+it('transforms to custom property', async () => {
+  await run('', result, {colors})
+});

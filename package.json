@@ -1,6 +1,6 @@
 {
-  "name": "postcss-custom-properties-generator",
-  "version": "0.0.0",
+  "name": "@sommerlager-st-marien/postcss-custom-properties-generator",
+  "version": "0.0.1",
   "description": "PostCSS plugin custom properties generator",
   "keywords": [
     "postcss",
@@ -13,7 +13,7 @@
   },
   "author": "Johannes Kimmeyer <johannes.kimmeyer@zweitag.de>",
   "license": "MIT",
-  "repository": "jkimmeyer/postcss-custom-properties-generator",
+  "repository": "https://github.com/sommerlager-st-marien/postcss-custom-properties-generator",
   "engines": {
     "node": ">=12.0.0"
   },
@@ -49,5 +49,6 @@
         "statements": 100
       }
     }
-  }
+  },
+  "main": "index.js"
 }

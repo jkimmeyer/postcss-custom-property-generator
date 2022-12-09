@@ -30,5 +30,3 @@ module.exports = (colors = {}) => {
     },
   }
 }
-
-module.exports.postcss = true
